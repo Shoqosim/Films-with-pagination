@@ -1,0 +1,103 @@
+.input_search{
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding: 5px;
+    border: none;
+    border: 1px solid green;
+    border-radius:4px;
+}
+
+.films_list{
+    display: grid;
+    grid-template-columns: repeat(4 ,1fr);
+    grid-gap: 30px;
+    margin: 0;
+    margin-bottom:30px;
+    padding: 0;
+    list-style-type: none;
+}
+
+.films_item{
+    width: 250px;
+    padding: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.films_title{
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 0;
+    color: rgb(81, 179, 35);
+
+}
+
+.films_poster{
+    width: 100%;
+    display: block;
+    object-fit: center;
+    margin-bottom: 10px;
+}
+.bookmark{
+    margin-left: 81px;
+    border: none;
+    background-color: aquamarine;
+    padding: 4px;
+    border-radius: 4px;
+    color: black;
+    transition: 0.2s;
+}
+
+.bookmark:active{
+    background-color: rgb(165, 67, 67);
+}
+
+.morebutton{
+    border: none;
+    background-color: aquamarine;
+    padding: 4px;
+    border-radius: 4px;
+    color:black;
+    transition: 0.2s;
+}
+
+.morebutton:active{
+    background-color: rgb(165, 67, 67);
+}
+
+.sub_div{
+    width: 200px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.films_prev_btn{
+    width: 70px;
+    padding: 5px;
+    background: aquamarine;
+    border: none;
+    border-radius:3px ;
+    transition: 0.5s;
+}
+
+.films_prev_btn:hover{
+    background-color: rgb(94, 94, 189);
+    color: black;
+}
+.films_next_btn{
+    width: 70px;
+    padding: 5px;
+    margin-left: 20px;
+    background-color: aquamarine;
+    border:none;
+    border-radius:3px ;
+    transition: 0.5s;
+}
+
+.films_next_btn:hover{
+    background-color: rgb(94, 94, 189);
+    color: black;
+}
+
+
